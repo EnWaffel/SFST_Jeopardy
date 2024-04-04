@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\SFST_Jeopardy\libraries\glfw-3.4\CMakeFiles\7d5e12e5ff670c0e284fdd2373d8b942\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{355EDC4D-920C-38CB-AF78-D576B39D43DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
