@@ -92,14 +92,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\release static\vs2015-2022\win64;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\libs\Win64;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;OpenAL32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -110,16 +111,17 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\release static\vs2015-2022\win64;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\libs\Win64;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;OpenAL32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -128,14 +130,15 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\release static\vs2015-2022\win64;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\libs\Win64;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;OpenAL32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -146,30 +149,50 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opengl32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\release static\vs2015-2022\win64;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\libs\Win64;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\src\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;OpenAL32.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\libraries\glad\src\glad.c" />
+    <ClCompile Include="src\Category.cpp" />
+    <ClCompile Include="src\Contestant.cpp" />
+    <ClCompile Include="src\Font.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GLBuffers.cpp" />
     <ClCompile Include="src\Logger.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Sound.cpp" />
+    <ClCompile Include="src\Sprite.cpp" />
+    <ClCompile Include="src\Text.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Application.h" />
+    <ClInclude Include="include\Category.h" />
+    <ClInclude Include="include\Defs.h" />
+    <ClInclude Include="include\Font.h" />
     <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\GLBuffers.h" />
     <ClInclude Include="include\Logger.h" />
     <ClInclude Include="include\Manager.h" />
+    <ClInclude Include="include\Contestant.h" />
+    <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\Sound.h" />
+    <ClInclude Include="include\Sprite.h" />
+    <ClInclude Include="include\Text.h" />
+    <ClInclude Include="include\Texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
