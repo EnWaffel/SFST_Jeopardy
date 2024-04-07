@@ -23,5 +23,5 @@ public:
 	Font(const std::string& path);
 	~Font();
 
-	Glyph GetGlyph(char c);
+	Glyph& GetGlyph(char c);
 };

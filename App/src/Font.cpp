@@ -77,7 +77,7 @@ Font::~Font()
     }
 }
 
-Glyph Font::GetGlyph(char c)
+Glyph& Font::GetGlyph(char c)
 {
     return glyphs.at(c);
 }

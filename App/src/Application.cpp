@@ -7,6 +7,7 @@
 #include "Logger.h"
 #include <GLFW/glfw3.h>
 #include <sstream>
+#include <thread>
 
 static ALCdevice* device;
 static ALCcontext* context;
@@ -30,8 +31,16 @@ int Application::Init()
     context = alcCreateContext(device, nullptr);
     alcMakeContextCurrent(context);
 
+
     Game* game = new Game;
+    Manager* manager = new Manager(game);
+
+    std::thread thd([&](){
+        manager->Init();
+    });
     
+    while (!manager->windowCreated);
+
     int gameResult;
     if ((gameResult = game->Init()) != 0)
     {
@@ -42,8 +51,12 @@ int Application::Init()
         return -1;
     }
 
+    glfwSetWindowShouldClose(manager->window, GLFW_TRUE);
+    thd.join();
+    manager->Terminate();
     game->Terminate();
     delete game;
+    delete manager;
 
     alcCloseDevice(device);
     alcDestroyContext(context);

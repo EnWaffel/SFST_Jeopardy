@@ -1,7 +1,6 @@
 {
   "title": "Sweet Home Alabama",
   "excluded_points": [
-    "400"
   ],
   "200": {
     "question": "Yes?",

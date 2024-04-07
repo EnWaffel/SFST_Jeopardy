@@ -1,5 +1,7 @@
 {
   "title": "Shrek",
+  "excluded_points": [
+  ],
   "200": {
     "question": "Donkey?",
     "answers": [

@@ -7,6 +7,7 @@
 #include "Defs.h"
 #include "Category.h"
 #include "Contestant.h"
+#include <map>
 
 #define BOARD_CATEGORIES 6
 
@@ -15,11 +16,12 @@
 
 class Game
 {
-private:
+public:
 	GLFWwindow* window;
 	std::unique_ptr<GLBuffers> bufs;
 	std::vector<SPRITE> sprites;
 	std::unique_ptr<Shader> spriteShader;
+	std::unique_ptr<Shader> textSpriteShader;
 	glm::mat4 viewMatrix;
 	TEXTURE tex200;
 	TEXTURE tex400;
@@ -27,9 +29,12 @@ private:
 	TEXTURE tex800;
 	TEXTURE tex1000;
 	TEXTURE texCardBG;
+	FONT fntCards;
 	std::vector<std::shared_ptr<Category>> loadedCategories;
 	std::vector<std::shared_ptr<Category>> categories;
 	std::vector<std::unique_ptr<Contestant>> contestants;
+	std::map<std::string, TEXTURE> categoryTitleTextures;
+	bool gameRunning = false;
 public:
 	Game();
 	~Game();
@@ -47,4 +52,6 @@ public:
 	void NewGame(std::vector<std::string> contestantNames);
 	void SelectCategories();
 	void CreateGameBoard();
+	void DrawSprites();
+	void DrawTextSprite(SPRITE& sprite);
 };

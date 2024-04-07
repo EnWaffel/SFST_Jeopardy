@@ -92,7 +92,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\imgui;C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -111,7 +111,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\imgui;C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -130,7 +130,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\imgui;C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -149,7 +149,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\dev\libs\imgui;C:\dev\libs\freetype-windows-binaries-2.13.2\include;C:\dev\SFST_Jeopardy\libraries\json\include;C:\dev\SFST_Jeopardy\libraries\openal-soft-1.23.1-bin\include;C:\dev\libs\stb-master;C:\dev\SFST_Jeopardy\libraries\glm-1.0.1-light;C:\dev\SFST_Jeopardy\libraries\glad\include;C:\dev\SFST_Jeopardy\libraries\glfw-3.4\include;C:\dev\SFST_Jeopardy\App\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
@@ -163,10 +163,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\libs\imgui\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\..\libs\imgui\backends\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\..\libs\imgui\imgui.cpp" />
+    <ClCompile Include="..\..\libs\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\libs\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\libs\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\libs\imgui\imgui_widgets.cpp" />
     <ClCompile Include="..\libraries\glad\src\glad.c" />
     <ClCompile Include="src\Category.cpp" />
     <ClCompile Include="src\Contestant.cpp" />
     <ClCompile Include="src\Font.cpp" />
+    <ClCompile Include="src\Manager.cpp" />
     <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\Game.cpp" />
@@ -175,7 +183,6 @@
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Sound.cpp" />
     <ClCompile Include="src\Sprite.cpp" />
-    <ClCompile Include="src\Text.cpp" />
     <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -191,8 +198,10 @@
     <ClInclude Include="include\Shader.h" />
     <ClInclude Include="include\Sound.h" />
     <ClInclude Include="include\Sprite.h" />
-    <ClInclude Include="include\Text.h" />
     <ClInclude Include="include\Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\..\Users\leoar\Downloads\Microgramma\microgrammanormal.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

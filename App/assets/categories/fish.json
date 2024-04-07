@@ -1,5 +1,7 @@
 {
   "title": "Fish",
+  "excluded_points": [
+  ],
   "200": {
     "question": "fish?",
     "answers": [
