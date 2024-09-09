@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "",
+        "question": ""
+    },
+    "200": {
+        "correct_answer": "Wer ist Donald Duck?",
+        "question": "Er ist die berühmteste Disney Figur."
+    },
+    "400": {
+        "correct_answer": "Wer sind die berühmtesten Minions?",
+        "question": "Sie heißen: Kevin, Stuart und Bob."
+    },
+    "600": {
+        "correct_answer": "Was ist 30?",
+        "question": "Es gibt ... Barbie Filme."
+    },
+    "800": {
+        "correct_answer": "Was ist 7?",
+        "question": "Es gibt ... Harry Potter Bücher."
+    },
+    "excluded_points": [
+        "1000"
+    ],
+    "title": "Serien - Filme - Buecher"
+}

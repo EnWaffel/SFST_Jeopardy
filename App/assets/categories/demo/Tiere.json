@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "Was ist ein Koala?",
+        "question": "Es ist das faulste Tier der Welt."
+    },
+    "200": {
+        "correct_answer": "Zu welcher Kindersendung gehören Maus und Elefant?",
+        "question": "Die beiden gehören zur Sendung mit der Maus."
+    },
+    "400": {
+        "correct_answer": "Was ist das Besondere am Blauwal?",
+        "question": "Es ist das größte lebende Säugetier."
+    },
+    "600": {
+        "correct_answer": "Was ist ein Kolibri?",
+        "question": "Es ist der kleinste lebende Vogel auf der Welt."
+    },
+    "800": {
+        "correct_answer": "Was ist ein Schneehase?",
+        "question": "Dieses Tier ändert die Farbe seines Fells nach den Jahreszeiten."
+    },
+    "excluded_points": [
+        ""
+    ],
+    "title": "Tiere"
+}

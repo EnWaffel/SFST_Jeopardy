@@ -1,0 +1,41 @@
+{
+    "1000": {
+        "answers": [
+            ""
+        ],
+        "correct_answer": "asdadsdsa",
+        "question": "fgdfghdgfds"
+    },
+    "200": {
+        "answers": [
+            ""
+        ],
+        "correct_answer": "Was ist ein Mensch?",
+        "question": "Ein Lebewesen wie du."
+    },
+    "400": {
+        "answers": [
+            ""
+        ],
+        "correct_answer": "Was ist ein Fisch?",
+        "question": "Im Ozean."
+    },
+    "600": {
+        "answers": [
+            ""
+        ],
+        "correct_answer": "???????!?!?!?!?!?",
+        "question": "sdgklnsgdf"
+    },
+    "800": {
+        "answers": [
+            ""
+        ],
+        "correct_answer": "asdas",
+        "question": "ztuuititiorooptoptr"
+    },
+    "excluded_points": [
+        ""
+    ],
+    "title": "Test Kategorie!"
+}

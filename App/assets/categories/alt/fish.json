@@ -1,0 +1,50 @@
+{
+  "title": "ü",
+  "excluded_points": [
+  ],
+  "200": {
+    "question": "fish?",
+    "answers": [
+      "fish",
+      "fIsH",
+      "FISH"
+    ],
+    "correct_answer": "fish"
+  },
+  "400": {
+    "question": "fish?",
+    "answers": [
+      "fish",
+      "fIsH",
+      "FISH"
+    ],
+    "correct_answer": "fish"
+  },
+  "600": {
+    "question": "fish?",
+    "answers": [
+      "fish",
+      "fIsH",
+      "FISH"
+    ],
+    "correct_answer": "fish"
+  },
+  "800": {
+    "question": "fish?",
+    "answers": [
+      "fish",
+      "fIsH",
+      "FISH"
+    ],
+    "correct_answer": "fish"
+  },
+  "1000": {
+    "question": "fish?",
+    "answers": [
+      "fish",
+      "fIsH",
+      "FISH"
+    ],
+    "correct_answer": "fish"
+  }
+}

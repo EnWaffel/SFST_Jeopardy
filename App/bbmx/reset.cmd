@@ -1,0 +1,1 @@
+bbmx.exe -r scripts/reset.lua

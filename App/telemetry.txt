@@ -1,0 +1,5 @@
+----- Daten vom letzten Spiel: -----
+
+- Kandidaten: 6
+- richtig beantwortete Fragen: 1
+- falsch beantwortete Fragen: 0

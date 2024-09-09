@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "",
+        "question": ""
+    },
+    "200": {
+        "correct_answer": "Was ist Minecraft?",
+        "question": "Es ist das beliebteste Video Spiel."
+    },
+    "400": {
+        "correct_answer": "Was ist Minecraft?",
+        "question": "Dieses Spiel ist am 18. November 2011 rausgekommen."
+    },
+    "600": {
+        "correct_answer": "Was ist Spongebob?",
+        "question": "Aus diesem Cartoon stammt das Restaurant: \"Korsse Krabbe\"."
+    },
+    "800": {
+        "correct_answer": "Was sind Menschen?",
+        "question": "Es gibt etwa 8,2 Milliarden ... auf der Welt."
+    },
+    "excluded_points": [
+        "1000"
+    ],
+    "title": "Allgemein Wissen"
+}

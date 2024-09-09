@@ -1,0 +1,77 @@
+[INFO]: Serial::Open(): COM7
+[INFO]: Serial::Write(): 1 18 
+[INFO]: Test signal received!
+[INFO]: Initializing OpenAL...
+[INFO]: [Game]: Initializing...
+[INFO]: [Game]: Setting up...
+[INFO]: [Game]: Creating buffers...
+[INFO]: [Game]: Loading textures...
+[INFO]: Texture: assets/images/200.png
+[INFO]: Texture: assets/images/400.png
+[INFO]: Texture: assets/images/600.png
+[INFO]: Texture: assets/images/800.png
+[INFO]: Texture: assets/images/1000.png
+[INFO]: Texture: assets/images/card_bg.png
+[INFO]: Texture: assets/images/bg_empty.jpg
+[INFO]: Texture: assets/images/overlay_black.png
+[INFO]: Texture: assets/images/joker.png
+[INFO]: Texture: assets/images/correctVignette.png
+[INFO]: Texture: assets/images/wrongVignette.png
+[INFO]: Texture: assets/images/overlay_white.png
+[INFO]: [Game]: Loading sounds...
+[INFO]: Sound: assets/sounds/board_fill.ogg
+[INFO]: Sound: assets/sounds/buzzer.ogg
+[INFO]: [Game]: Loading fonts...
+[INFO]: Font: assets/fonts/ConsolaMono-Bold.ttf
+[INFO]: [Game]: Loading categories...
+[INFO]: Loaded Category: Allgemein Wissen
+[INFO]: Texture: assets/images/question_images/flaggen/serbien.jpg
+[INFO]: Texture: assets/images/question_images/flaggen/malta.png
+[INFO]: Texture: assets/images/question_images/flaggen/estland.png
+[INFO]: Loaded Category: Flaggen
+[INFO]: Texture: assets/images/question_images/marken/valentino.png
+[INFO]: Texture: assets/images/question_images/marken/chanel.png
+[INFO]: Texture: assets/images/question_images/marken/versace.png
+[INFO]: Texture: assets/images/question_images/marken/bentley.png
+[INFO]: Loaded Category: Marken
+[INFO]: [Game]: Running!
+[INFO]: [Game]: Setting up new game...
+[INFO]: [Game]: Selecting categories...
+[WARNING]: loadedCategories.size() (3) < BOARD_CATEGORIES (5); filling with empty ones
+[INFO]: [Game]: Creating game board...
+[INFO]: [Game]: Created column: 1
+[INFO]: [Game]: Created column: 2
+[INFO]: [Game]: Created column: 3
+[INFO]: [Game]: Created column: 4
+[INFO]: [Game]: Created column: 5
+[INFO]: Game::Next(): state: REVEAL_CATEGORIES
+[INFO]: Game::Next(): state: REVEAL_CATEGORIES
+[INFO]: Game::Next(): state: REVEAL_CATEGORIES
+[INFO]: Game::Next(): state: REVEAL_CATEGORIES
+[INFO]: Game::Next(): state: REVEAL_CATEGORIES
+[INFO]: Game::Next(): state: PLAYER_NEXT
+[INFO]: Serial::Write(): 1 17 1 0 
+[INFO]: Serial::Write(): 1 17 2 0 
+[INFO]: Serial::Write(): 1 17 3 0 
+[INFO]: Serial::Write(): 1 17 4 0 
+[INFO]: Serial::Write(): 1 17 5 0 
+[INFO]: Serial::Write(): 1 17 0 3 
+[INFO]: Game::Next(): state: PLAYER_CAT_SELECT
+[INFO]: Serial::Write(): 1 19 1 
+[INFO]: Game::Next(): state: AWAIT_BUZZ
+[INFO]: Serial::Write(): 1 19 0 
+[INFO]: BUZZED!
+[INFO]: Game::Next(): state: AWAIT_BUZZ_CONFIRM
+[INFO]: Game::Next(): state: AWAIT_CORRECT_OR_WRONG
+[INFO]: Game::Next(): state: PLAYER_NEXT
+[INFO]: Serial::Write(): 1 17 1 0 
+[INFO]: Serial::Write(): 1 17 2 0 
+[INFO]: Serial::Write(): 1 17 3 0 
+[INFO]: Serial::Write(): 1 17 4 0 
+[INFO]: Serial::Write(): 1 17 5 0 
+[INFO]: Serial::Write(): 1 17 0 3 
+[INFO]: Game::Next(): state: PLAYER_CAT_SELECT
+[INFO]: Serial::Write(): 1 19 1 
+[INFO]: Exiting...
+[INFO]: [Game]: Disabling...
+[INFO]: [Game]: Disabled!

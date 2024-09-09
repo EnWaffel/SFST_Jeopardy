@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "Was ist Star Wars?",
+        "question": "\"Möge die Macht mit dir sein.\""
+    },
+    "200": {
+        "correct_answer": "Was ist Apollo 13?",
+        "question": "Dieser Film enthält das berühmte Zitat: \"Houston, wir haben ein Problem\"."
+    },
+    "400": {
+        "correct_answer": "Was ist Dirty Dancing?",
+        "question": "Dieser Film enthält das berühmte Zitat: \"Mein Baby gehört zu mir!\"."
+    },
+    "600": {
+        "correct_answer": "Was ist Titanic?",
+        "question": "\"Ich bin der König der Welt!\""
+    },
+    "800": {
+        "correct_answer": "Was ist Terminator?",
+        "question": "Dieser Film enthält das Zitat: \"Ich komme wieder.\""
+    },
+    "excluded_points": [
+        ""
+    ],
+    "title": "Filmzitate"
+}

@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "",
+        "question": ""
+    },
+    "200": {
+        "correct_answer": "Was ist 195?",
+        "question": "Es gibt ... Länder."
+    },
+    "400": {
+        "correct_answer": "Was sind ca. 120?",
+        "question": "Es gibt ... Lehrer an der IGS."
+    },
+    "600": {
+        "correct_answer": "Was ist 1285?",
+        "question": "Buxtehude wurde in diesem Jahr gegründet."
+    },
+    "800": {
+        "correct_answer": "Was ist 1954?",
+        "question": "In diesem Jahr hat Deutschland das erste mal die WM gewonnen."
+    },
+    "excluded_points": [
+        "1000"
+    ],
+    "title": "Schaetzfragen"
+}

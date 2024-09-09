@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "Was ist Quecksilber?",
+        "question": "Es ist ein Metall und wird bei Raumtemperatur flüssig."
+    },
+    "200": {
+        "correct_answer": "Was ist die Photosynthese?",
+        "question": "Welcher Prozess in Pflanzen wandelt Sonnenlicht, Wasser und Kohlendioxid in Glukose und Sauerstoff um?"
+    },
+    "400": {
+        "correct_answer": "Wer ist Einstein?",
+        "question": "Er hat die relativitäts Theorie erfunden."
+    },
+    "600": {
+        "correct_answer": "Was ist ein Magnet?",
+        "question": "Es kann Sachen anziehen oder abstoßen."
+    },
+    "800": {
+        "correct_answer": "Was ist alpha-Strahlung?",
+        "question": "Diese Strahlung kommt nicht durch die Haut durch."
+    },
+    "excluded_points": [
+        ""
+    ],
+    "title": "Wissenschaft"
+}

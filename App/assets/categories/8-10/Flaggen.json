@@ -1,0 +1,32 @@
+{
+    "1000": {
+        "correct_answer": "",
+        "question": ""
+    },
+    "200": {
+        "correct_answer": "Was sind Rot, Schwarz und Gold?",
+        "question": "Diese Farben hat die Deutschland Flagge."
+    },
+    "400": {
+        "correct_answer": "Serbien",
+        "question": "Zu welchem Land gehört diese Flagge?",
+		"img": "question_images/flaggen/serbien.jpg",
+		"scale": 0.5
+    },
+    "600": {
+        "correct_answer": "Malta",
+        "question": "Zu welchem Land gehört diese Flagge?",
+		"img": "question_images/flaggen/malta.png",
+		"scale": 0.6
+    },
+    "800": {
+        "correct_answer": "Estland",
+        "question": "Welche Flagge ist das?",
+		"img": "question_images/flaggen/estland.png",
+		"scale": 0.35
+    },
+    "excluded_points": [
+        "1000"
+    ],
+    "title": "Flaggen"
+}

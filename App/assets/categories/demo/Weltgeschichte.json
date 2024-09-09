@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "Was passierte an dem 9. November 1989?",
+        "question": "Eine Mauer fiel an diesem Tag."
+    },
+    "200": {
+        "correct_answer": "Was ist die Pest?",
+        "question": "Im Mittelalter starben an dieser Krankheit viele Menschen."
+    },
+    "400": {
+        "correct_answer": "Wer ist Franz Ferdinand?",
+        "question": "Eine wichtige Person wurde am 28. Juni 1914 ermordet."
+    },
+    "600": {
+        "correct_answer": "",
+        "question": "JOKER"
+    },
+    "800": {
+        "correct_answer": "Was ist der Erste Weltkrieg?",
+        "question": "Ein Weltkrieg der von 1914 bis 1918 ging."
+    },
+    "excluded_points": [
+        ""
+    ],
+    "title": "Weltgeschichte"
+}

@@ -1,0 +1,34 @@
+{
+    "1000": {
+        "correct_answer": "",
+        "question": ""
+    },
+    "200": {
+        "correct_answer": "Valentino.",
+        "question": "Welche Marke ist das?",
+		"img": "question_images/marken/valentino.png",
+		"scale": 1.0
+    },
+    "400": {
+        "correct_answer": "Chanel",
+        "question": "Welche Marke ist das?",
+		"img": "question_images/marken/chanel.png",
+		"scale": 1.0
+    },
+    "600": {
+        "correct_answer": "Versace",
+        "question": "Welche Marke ist das?",
+		"img": "question_images/marken/versace.png",
+		"scale": 0.75
+    },
+    "800": {
+        "correct_answer": "Bentley",
+        "question": "Welche Marke ist das?",
+		"img": "question_images/marken/bentley.png",
+		"scale": 1.0
+    },
+    "excluded_points": [
+        "1000"
+    ],
+    "title": "Marken"
+}

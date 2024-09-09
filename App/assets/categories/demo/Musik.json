@@ -1,0 +1,28 @@
+{
+    "1000": {
+        "correct_answer": "Was ist eine Gitarre?",
+        "question": "Ein bekanntes Instrument, das 6 Seiten hat."
+    },
+    "200": {
+        "correct_answer": "Wer ist Beethoven?",
+        "question": "Er hat das Weltbrühmte Stuck \"Für Elise\" komponiert.",
+		"img": "file-6113d5f8845dc.jpeg",
+		"scale": 0.25
+    },
+    "400": {
+        "correct_answer": "Wer ist Michael Jackson?",
+        "question": "Er wird der \"King of Pop\" genannt."
+    },
+    "600": {
+        "correct_answer": "Was ist eine Geige?",
+        "question": "JOKER"
+    },
+    "800": {
+        "correct_answer": "Wer ist Helene Fischer?",
+        "question": "Die berühmteste Schlager Sängerin Detuschlands."
+    },
+    "excluded_points": [
+        ""
+    ],
+    "title": "Musik"
+}

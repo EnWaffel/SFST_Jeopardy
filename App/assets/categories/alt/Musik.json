@@ -1,0 +1,26 @@
+{
+    "1000": {
+		"question": "Was ist \"Großer Gott, wir loben dich, Herr wir preisen deine Stärke, vor dir neigt die Erde sich und bewundert deine Werke. Wie du warst vor aller Zeit, so bleibst du in Ewigkeit.\"",
+        "correct_answer": "Das ist die erste Strophe von \"Großer Gott wir loben dich\""
+    },
+    "200": {
+        "correct_answer": "Wie geht das Lied: \"Man sagt, er war ein Gammler\"",
+        "question": "Das kommt danach: \"...er zog durchdas ganze Land. Raue Männer im Gefolge, die er auf der Straße fand.\""
+    },
+    "400": {
+        "correct_answer": "",
+        "question": "JOKER"
+    },
+    "600": {
+        "correct_answer": "Wer war Michael Jackson?",
+        "question": "Ein Sänger, der mit Hits wie \"Thriller\", \"Earth Song\" und \"You are not alone\" weltberühmt wurde."
+    },
+    "800": {
+        "correct_answer": "Was ist Stille Nacht?",
+        "question": "Das Weihnachtslied, das in die meistenSprachen übersetzt wurde."
+    },
+    "excluded_points": [
+        ""
+    ],
+    "title": "Musik"
+}

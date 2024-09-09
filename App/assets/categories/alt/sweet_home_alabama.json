@@ -1,0 +1,50 @@
+{
+  "title": "Sweet Home Alabama",
+  "excluded_points": [
+  ],
+  "200": {
+    "question": "Yes?",
+    "answers": [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "correct_answer": "Yes"
+  },
+  "400": {
+    "question": "Yes?",
+    "answers": [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "correct_answer": "Yes"
+  },
+  "600": {
+    "question": "Yes?",
+    "answers": [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "correct_answer": "Yes"
+  },
+  "800": {
+    "question": "Yes?",
+    "answers": [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "correct_answer": "Yes"
+  },
+  "1000": {
+    "question": "Yes?",
+    "answers": [
+      "Yes",
+      "No",
+      "Maybe"
+    ],
+    "correct_answer": "Yes"
+  }
+}

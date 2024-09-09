@@ -1,0 +1,26 @@
+{
+    "1000": {
+        "correct_answer": "",
+        "question": ""
+    },
+    "200": {
+        "correct_answer": "Was ist der erste Weltkrieg?",
+        "question": "Ein schreckliches Ereignis begann am 28. Juli 1914 und endete am 14. November 1918."
+    },
+    "400": {
+        "correct_answer": "Was ist der 01.01.2002?",
+        "question": "Der Euro wurde an diesem Tag eingeführt."
+    },
+    "600": {
+        "correct_answer": "Was ist 1949?",
+        "question": "In diesem Jahr wurde die NATO gegründet."
+    },
+    "800": {
+        "correct_answer": "Was ist 300 Meter?",
+        "question": "Der Eiffelturm ist ... hoch."
+    },
+    "excluded_points": [
+        "1000"
+    ],
+    "title": "Allgemein Wissen"
+}
